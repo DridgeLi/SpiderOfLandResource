@@ -11,6 +11,8 @@ def test1():
         s = s + x
         x = x + d
     print(s)
+    a = "中国"
+    print(a)
 
 
 if __name__ == "__main__":
