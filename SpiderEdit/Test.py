@@ -4,7 +4,13 @@
 
 
 def test1():
-    print("hello world!")
+    x = 1
+    d = 3
+    s = 0
+    for i in range(0, 100):
+        s = s + x
+        x = x + d
+    print(s)
 
 
 if __name__ == "__main__":
