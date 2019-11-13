@@ -4,15 +4,8 @@
 
 
 def test1():
-    x = 1
-    d = 3
-    s = 0
-    for i in range(0, 100):
-        s = s + x
-        x = x + d
-    print(s)
-    a = "中国"
-    print(a)
+    set = (1, 2, 3, 1)
+    print(set)
 
 
 if __name__ == "__main__":
